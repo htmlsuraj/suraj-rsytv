@@ -132,28 +132,16 @@ rsytv-formatted-string::-webkit-scrollbar-thumb {
     text-align: center;
     
 
-    .image-container {
-        position: relative;
-        display: inline-block;
-      }
-      
-      .image-container img {
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-      
-      .hi{
-        position: absolute;
-        top: 10%; 
-        left: 5%; 
-        transform: translate(-50%, -50%); 
-        color: #192dc3; 
-        padding: 10px 20px; 
-        font-size: 20px; 
-        text-align: center;
 
-    
+        overlay-text {
+            position: absolute;
+            top: 100%; 
+            left: 0%; 
+            transform: translate(-50%, -50%); 
+            color: #0af587; 
+            padding: 10px 20px; 
+            font-size: 20px; 
+            text-align: center;
 
 
 
