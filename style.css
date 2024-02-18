@@ -1,155 +1,40 @@
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgha(42,25,52,0.75);
+
+video {
+  width: 100%;
+height: 100%;
+min-height: 100%;
+  display:flex;
+  height: 125%;
+  background-size: cover;
 }
-.over{
-    background-image: linear-gradient(to right,rgha(34,35,46,0.75),
-    rgba(0,194,203,0.5));
-}
-div class="video-slider">
-    <video src="anime1.mp4" muted autoplay loop></video>
-    <video src="anime2.mp4" muted autoplay loop></video>
-    <video src="anime3.mp4" muted autoplay loop></video>
-</div>
-<script src"slider-library.js"></script>
-<iframe width="1200" height="675"
-src="https://play.gumlet.io/embed/{{asset-id}}"
-title="gumlet video player"
-frame border="0"
-allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;fullscreen">
 *{
-
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: nexa;
-}
-ul{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-section{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 110px 100px;
-}
-
-@media (max-width: 1000px){
-    section{
-        padding: 100px 50px;
-    }
-}
-@media (max-width: 600px){
-    section{
-        padding: 125px 30px;
-    }
+padding: 0;
 }
 header{
-    position: absolute;
-    top: 0; 
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    padding: 35px 0px 0;
+height: 100px;
+background: rgba(175, 11, 216, 0.7);
+width: 100%;
 }
-
-header a{
-    text-transform: capitalize;
-    font-weight: 900;
+.logo{
+font-family: 'Aclonica';
+font-size: 25px
+padding 50px;
+margin-left: 50px;
 }
-header h2{
-    text-transform: uppercase;
+.logo a{
+color: #fff;
+text-decoration: none;
 }
-header .nav{
-   display: flex;
+.nav_bar{
+font-family: 'poppins';
+font-size:20px;
+float: right;
+List-style: none;
 }
-header.nav li{
-    margin: 0 15px;
+.nav_bar li {
+display: inline-block;
 }
-header .nav li:first-child{
-    margin-left: 0;
+.nav_bar li a{
+padding: 15px;
 }
-header .nav li:last-child{
-    margin-right: 0;
-}
-@media (max-width:1000px){
-    header{
-        padding: 20px 50px;
-    }
-}
-@media (max-width:700px){
-    header{
-        flex-direction: column;
-    }
-}
-header h2{
-    margin-bottom: 15px;
-}
-header .nav li{
-   margin-bottom: 0 7px;
-}
-rsytv-formatted-string::-webkit-scrollbar-thumb {
-    height: 56px;
-    background: var(--yt-spec-icon-disabled);
-}
-.container {
-    position: relative;
-    max-width: 800px; /* Maximum width */
-    margin: 0 auto; /* Center it */
-  }
-  .image-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay-text {
-    position: absolute;
-    top: 48%; 
-    left: 10%; 
-    right: 17%;
-    transform: translate(-50%, -50%); 
-    color: #de0000; 
-    padding: 10px 19px; 
-    font-size: 20px; 
-    text-align: center;
-    
-
-
-        overlay-text {
-            position: absolute;
-            top: 100%; 
-            left: 0%; 
-            transform: translate(-50%, -50%); 
-            color: #0af587; 
-            padding: 10px 20px; 
-            font-size: 20px; 
-            text-align: center;
-
-
-
-
-
-
-
-
-
-  
